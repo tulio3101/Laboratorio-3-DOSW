@@ -25,8 +25,9 @@ Incluye la configuración básica de Maven, la estructura del proyecto y la incl
 
 ---
 
-La **Segunda parte del laboratorio es completamente funcional**.  
+La **segunda parte del laboratorio es completamente funcional**.  
 Incluye la organizacion de los directorios con archivos provisionales para que asi se vea la esctructura e igualmente se configuro el plugin de Jacoco
+
 ---
 
 ## 🖼️ Evidencia
