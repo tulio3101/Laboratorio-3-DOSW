@@ -19,8 +19,21 @@ Incluye la configuración básica de Maven, la estructura del proyecto y la incl
 
 ## 🖼️ Evidencia
 
-![alt text](image.png)
+![alt text](docs/imagenes/Parte1/image.png)
 
-![alt text](image-1.png)
+![alt text](docs/imagenes/Parte1/image-1.png)
+
+---
+
+La **Segunda parte del laboratorio es completamente funcional**.  
+Incluye la organizacion de los directorios con archivos provisionales para que asi se vea la esctructura e igualmente se configuro el plugin de Jacoco
+---
+
+## 🖼️ Evidencia
+![alt text](docs/imagenes/Parte2/image-3.png)
+
+![alt text](docs/imagenes/Parte2/image.png)
+
+![alt text](docs/imagenes/Parte2/image-2.png)
 
 ---
