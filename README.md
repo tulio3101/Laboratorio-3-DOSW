@@ -56,6 +56,21 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 - Precondiciones Del Sistema: 
     - Creacion de los clientes, verificar las cuentas de los clientes revisando si este cumple con los estandares delos digitos y si estan asociados a el banco, permitir la consulta del usuario junto con su saldo.
 
+---
+## Reto 2 Culminado: 
+![alt text](docs/imagenes/Reto2/image-2.png)
+ 
+- Para este diagrama identificamos el actor cliente que es capaz de realizar
+diferentes funciones como registrar una cuenta, consultar el saldo de la misma
+y hacer depositos. Todas estas funciones van encapsuladas en el contexto del banco.
 
+### Diagrama De casos de Uso Para Cliente
+![alt text](docs/imagenes/Reto2/image.png)
 
+### Historias De Casos De uso y su atributo de calidad
 
+![alt text](docs/imagenes/Reto2/image-3.png)
+
+### Diagrama de Clases UML
+
+![alt text](docs/imagenes/Reto2/UML.png)
