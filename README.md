@@ -47,4 +47,14 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 - Funcionalidades principales: Crear y validar cuentas de los clientes, consultar saldo de una cuenta y hacer depósitos.
 
-- Actores Principales: Clientes, Dueño de la empresa, Personal Administrativo, 
+- Actores Principales: 
+
+    - Clientes
+    - Junta Directiva
+    - Personal Administrativo
+    - Gerente General
+    - Gerentes Tecnicos
+
+
+
+
