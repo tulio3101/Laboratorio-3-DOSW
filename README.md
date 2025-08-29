@@ -73,4 +73,4 @@ y hacer depositos. Todas estas funciones van encapsuladas en el contexto del ban
 
 ### Diagrama de Clases UML
 
-![alt text](docs/imagenes/Reto2/UML.png)
+![alt text](image.png)
