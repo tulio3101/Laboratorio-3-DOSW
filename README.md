@@ -49,3 +49,7 @@ y hacer depositos. Todas estas funciones van encapsuladas en el contexto del ban
 
 ### Diagrama De casos de Uso Para Cliente
 ![alt text](docs/imagenes/Reto2/image.png)
+
+### Historias De Casos De uso y su atributo de calidad
+
+![alt text](docs/imagenes/Reto2/image-3.png)
