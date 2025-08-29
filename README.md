@@ -65,7 +65,7 @@ diferentes funciones como registrar una cuenta, consultar el saldo de la misma
 y hacer depositos. Todas estas funciones van encapsuladas en el contexto del banco.
 
 ### Diagrama De casos de Uso Para Cliente
-![alt text](docs/imagenes/Reto2/image.png)
+![alt text](docs/imagenes/Reto2/Casos.png)
 
 ### Historias De Casos De uso y su atributo de calidad
 
