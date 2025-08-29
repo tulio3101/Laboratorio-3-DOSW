@@ -38,3 +38,13 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 ![alt text](docs/imagenes/Parte2/image-2.png)
 
 ---
+
+### Reto 1
+
+## Identificando Requerimientos
+
+- Reglas de negocio: Asegurar la calidad de software, mantanibilidad aplicando metodologias agiles con cobertura de código y análisis estático.
+
+- Funcionalidades principales: Crear y validar cuentas de los clientes, consultar saldo de una cuenta y hacer depósitos.
+
+- Actores Principales: Clientes, Dueño de la empresa, Personal Administrativo, 
