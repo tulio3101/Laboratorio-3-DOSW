@@ -38,3 +38,9 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 ![alt text](docs/imagenes/Parte2/image-2.png)
 
 ---
+## Reto 2
+### Diagrama de Contexto
+![alt text](docs/imagenes/Reto2/image-2.png)
+---
+### Diagrama De casos de Uso Para Cliente
+![alt text](docs/imagenes/Reto2/image.png)
