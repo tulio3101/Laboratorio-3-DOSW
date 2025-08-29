@@ -20,7 +20,9 @@ Incluye la configuración básica de Maven, la estructura del proyecto y la incl
 ## 🖼️ Evidencia
 
 ![alt text](docs/imagenes/Parte1/image.png)
+![alt text](docs/imagenes/Parte1/image.png)
 
+![alt text](docs/imagenes/Parte1/image-1.png)
 ![alt text](docs/imagenes/Parte1/image-1.png)
 
 ---
