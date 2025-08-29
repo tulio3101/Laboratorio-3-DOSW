@@ -41,6 +41,11 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 ## Reto 2
 ### Diagrama de Contexto
 ![alt text](docs/imagenes/Reto2/image-2.png)
----
+
+- Para este diagrama identificamos el actor cliente que es capaz de realizar 
+diferentes funciones como registrar una cuenta, consultar el saldo de la misma 
+y hacer depositos. Todas estas funciones van encapsuladas en el contexto del banco.
+
+
 ### Diagrama De casos de Uso Para Cliente
 ![alt text](docs/imagenes/Reto2/image.png)
