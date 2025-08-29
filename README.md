@@ -50,10 +50,6 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 - Actores Principales: 
 
     - Clientes
-    - Junta Directiva
-    - Personal Administrativo
-    - Gerente General
-    - Gerentes Tecnicos
 
 - Precondiciones Del Sistema: 
     - Creacion de los clientes, verificar las cuentas de los clientes revisando si este cumple con los estandares delos digitos y si estan asociados a el banco, permitir la consulta del usuario junto con su saldo.
