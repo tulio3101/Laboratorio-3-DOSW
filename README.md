@@ -33,6 +33,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 ---
 
 ## 🖼️ Evidencia
+
 ![alt text](docs/imagenes/Parte2/image-3.png)
 
 ![alt text](docs/imagenes/Parte2/image.png)
@@ -49,22 +50,25 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 - Funcionalidades principales: Crear y validar cuentas de los clientes, consultar saldo de una cuenta y hacer depósitos.
 
-- Actores Principales: 
+- Actores Principales:
 
-    - Clientes
+  - Clientes
 
-- Precondiciones Del Sistema: 
-    - Creacion de los clientes, verificar las cuentas de los clientes revisando si este cumple con los estandares delos digitos y si estan asociados a el banco, permitir la consulta del usuario junto con su saldo.
+- Precondiciones Del Sistema:
+  - Creacion de los clientes, verificar las cuentas de los clientes revisando si este cumple con los estandares delos digitos y si estan asociados a el banco, permitir la consulta del usuario junto con su saldo.
 
 ---
-## Reto 2 Culminado: 
+
+## Reto 2 Culminado:
+
 ![alt text](docs/imagenes/Reto2/image-2.png)
- 
+
 - Para este diagrama identificamos el actor cliente que es capaz de realizar
-diferentes funciones como registrar una cuenta, consultar el saldo de la misma
-y hacer depositos. Todas estas funciones van encapsuladas en el contexto del banco.
+  diferentes funciones como registrar una cuenta, consultar el saldo de la misma
+  y hacer depositos. Todas estas funciones van encapsuladas en el contexto del banco.
 
 ### Diagrama De casos de Uso Para Cliente
+
 ![alt text](docs/imagenes/Reto2/Casos.png)
 
 ### Historias De Casos De uso y su atributo de calidad
@@ -73,4 +77,26 @@ y hacer depositos. Todas estas funciones van encapsuladas en el contexto del ban
 
 ### Diagrama de Clases UML
 
-![alt text](image.png)
+![alt text](docs/imagenes/Reto2/UML.png)
+
+--
+
+### Reto 3 Culminado:
+
+![alt text](docs/imagenes/Reto3/Reto3Imagen1.png)
+
+![alt text](docs/imagenes/Reto3/Reto3Imagen2.png)
+
+## Implementacion en codigo
+
+![alt text](docs/imagenes/Reto3/image.png)
+
+![alt text](docs/imagenes/Reto3/image-1.png)
+
+![alt text](docs/imagenes/Reto3/image-2.png)
+
+**Explicacion**
+
+- Se crearon dos clases para validar que los votos estuvieran dentro del rango establecido (fibonacci del 1 al 13) y una para validar los votos de los integrantes.
+
+- Se siguio los principios S - O, para un buen desarrollo de software, esto se puede evidenciar en las clases previamente creadas, para el caso de O en planning poker recibe de acuerdo a una cantidad de tareas su descripcion para despues ser debatida.
