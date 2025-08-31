@@ -7,10 +7,20 @@ public class ValidateVotes {
 
     public static boolean validateVotesFibonacci(int n, List<Integer> votes) {
         for (int vote : votes) {
-            if (vote == fibonacci.calculateFibonacci(n)) {
-                return true;
+            if (!Fibonacci.isValidVote(vote)) {
+                return false;
             }
         }
-        return false;
+        return true;
+    }
+
+    public static boolean checkAmountVotes(List<Integer> votes){
+        int firstVote = votes.get(0);
+        for (int vote : votes) {
+            if (vote != firstVote) {
+                return false;
+            }
+        }
+        return true;
     }
 }

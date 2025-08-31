@@ -38,4 +38,12 @@ public class PlanningPoker {
         }
     }
 
+    public static void resumen(){
+        System.out.println("---Resumen---");
+        for (int i = 0; i < tareas.size(); i++) {
+            System.out.println("Tarea " + (i + 1) + ": " + tareas.get(i));
+        }
+
+    }
+
 }
