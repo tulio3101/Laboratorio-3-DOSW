@@ -32,8 +32,8 @@ public class Account {
         return balance;
     }
 
-    public void consultAccount(int numberAccount) {
-
+    public String consultAccount(String numberAccount) {
+        return this.getName() + " " +  this.getNumberAccount() + " " + this.getBalance().toString();
     }
 
     public void doMovement(BigDecimal amount, Account destination) throws Exception {

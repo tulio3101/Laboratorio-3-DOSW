@@ -9,7 +9,6 @@ import java.math.BigDecimal;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
-
 import edu.dosw.lab.Reto4.Account;
 import edu.dosw.lab.Reto4.BankifyFacade;
 import edu.dosw.lab.Reto4.Customer;
@@ -50,6 +49,15 @@ public class TestReto4 {
         assertEquals(new BigDecimal(50.000).toBigInteger(), account2.getBalance().toBigInteger());
         System.out.println("Hola");
         assertEquals(new BigDecimal(50.000).toBigInteger(), account.getBalance().toBigInteger());
+    }
+
+    @Test
+    public void shouldConsult(){
+        Customer customer = new Customer("Julio");
+        Account account = customer.createAccount(customer.getName());
+        account.setBalance(new BigDecimal("70.000"));
+        String esperado = "Julio " + account.getNumberAccount() + " " + account.getBalance().toString();
+        assertEquals(customer.consultAccount(account.getNumberAccount()), esperado);
     }
 
 }

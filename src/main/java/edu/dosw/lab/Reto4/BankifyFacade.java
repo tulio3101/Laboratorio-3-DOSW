@@ -18,8 +18,12 @@ public class BankifyFacade {
         return newAccount;
     }
 
-    public String consultAccount(int numberAccount) {
-        return "Hola";
+    public String consultAccount(String numberAccount) {
+        Account result = accounts.stream()
+                .filter(a -> a.getNumberAccount().equals(numberAccount))
+                .findFirst()
+                .orElse(null);
+        return result.consultAccount(numberAccount);
     }
 
     public ArrayList<Account> getAccounts() {

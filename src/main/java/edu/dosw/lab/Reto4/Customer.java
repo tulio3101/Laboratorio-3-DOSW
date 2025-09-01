@@ -24,7 +24,7 @@ public class Customer {
         }
     }
 
-    public String consultAccount(int numberAccount) {
+    public String consultAccount(String numberAccount) {
         return bankifyFacade.consultAccount(numberAccount);
     }
 
