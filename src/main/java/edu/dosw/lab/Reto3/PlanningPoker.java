@@ -46,6 +46,7 @@ public class PlanningPoker {
             break;
         }
         resumen();
+        scanner.close();
     }
 
     public static void menu() {
