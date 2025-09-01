@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * Represents a customer of the banking system.
  * @author  Tulio Riaño, Juan Puentes, Julian Lopez
- * @version 1.0
+ * @version 1.1
  */
 public class Customer {
     private String name;
@@ -17,9 +17,9 @@ public class Customer {
      * Initializes the bank facade
      * @param name customer's name
      */
-    public Customer(String name) {
+    public Customer(String name, BankifyFacade bankifyFacade) {
         this.name = name;
-        bankifyFacade = new BankifyFacade();
+        this.bankifyFacade = bankifyFacade;
     }
 
     /**
@@ -28,8 +28,10 @@ public class Customer {
      * @return the newly created account
      */
     public Account createAccount(String name) {
-        return bankifyFacade.createAccount(name);
+        this.account = bankifyFacade.createAccount(name);
+        return this.account;
     }
+
 
     /**
      * Performs a movement from the given account to another account.
@@ -37,8 +39,9 @@ public class Customer {
      * @param amount        amount of money to transfer
      * @param numberAccount destination account number
      */
-    public void doMovement(Account account, BigDecimal amount, String numberAccount) {
+    public void doMovement(BigDecimal amount, String numberAccount) {
         try {
+            System.out.println(account.getBalance());
             bankifyFacade.doMovement(account, amount, numberAccount);
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -76,6 +79,10 @@ public class Customer {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setAccount(Account account){
+        this.account = account;
     }
 
 }

@@ -11,12 +11,14 @@ import java.util.ArrayList;
 public class BankifyFacade {
     private ManagementAccount managementAccount;
     private ArrayList<Account> accounts;
+    private ArrayList<Customer> customers;
     /**
      * Default constructor.
      */
     public BankifyFacade() {
         accounts = new ArrayList<>();
         managementAccount = new ManagementAccount();
+        customers = new ArrayList<>();
     }
 
     /**
@@ -27,6 +29,11 @@ public class BankifyFacade {
     public Account createAccount(String name) {
         Account newAccount = managementAccount.createAccount(name);
         accounts.add(newAccount);
+        for (Customer customer : customers){
+            if (customer.getName().equals(name)){
+                customer.setAccount(newAccount);
+            }
+        }
         return newAccount;
     }
 
@@ -60,8 +67,13 @@ public class BankifyFacade {
      * @throws Exception  possibles errors
      */
     public void doMovement(Account account, BigDecimal amount, String numberAccount) throws Exception {
+        System.out.println("SOTZZIO?");
+        System.out.println(account.getNumberAccount());
+        System.out.println(account.getBalance());
         for (Account a : accounts) {
+            System.out.println(a.getNumberAccount() + " " + numberAccount);
             if (a.getNumberAccount().equals(numberAccount)) {
+                System.out.println(a.getNumberAccount());
                 account.doMovement(amount, a);
             }
         }
