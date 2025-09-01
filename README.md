@@ -115,5 +115,5 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 ### Captura Final Mas de 85% De Cobertura
 - Se agrego una prueba para añadir un movimiento directamente desde la clase "customer" y es importante porque verifica la calidad de las pruebas.
 
-![alt text](docs/imagenes/Reto5/image.png)
+![alt text](docs/imagenes/Reto5/image-2.png)
 ---
