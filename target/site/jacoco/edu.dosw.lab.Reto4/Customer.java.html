@@ -2,46 +2,81 @@
 
 import java.math.BigDecimal;
 
+/**
+ * Represents a customer of the banking system.
+ * @author  Tulio Riaño, Juan Puentes, Julian Lopez
+ * @version 1.0
+ */
 public class Customer {
     private String name;
     private BankifyFacade bankifyFacade;
     private Account account;
 
-<span class="fc" id="L10">    public Customer(String name) {</span>
-<span class="fc" id="L11">        this.name = name;</span>
-<span class="fc" id="L12">        bankifyFacade = new BankifyFacade();</span>
-<span class="fc" id="L13">    }</span>
+    /**
+     * Creates a new customer with the given name.
+     * Initializes the bank facade
+     * @param name customer's name
+     */
+<span class="fc" id="L20">    public Customer(String name) {</span>
+<span class="fc" id="L21">        this.name = name;</span>
+<span class="fc" id="L22">        bankifyFacade = new BankifyFacade();</span>
+<span class="fc" id="L23">    }</span>
 
+    /**
+     * Creates a new account for this customer.
+     * @param name name of the account holder
+     * @return the newly created account
+     */
     public Account createAccount(String name) {
-<span class="fc" id="L16">        return bankifyFacade.createAccount(name);</span>
+<span class="fc" id="L31">        return bankifyFacade.createAccount(name);</span>
     }
 
+    /**
+     * Performs a movement from the given account to another account.
+     * @param account       source account
+     * @param amount        amount of money to transfer
+     * @param numberAccount destination account number
+     */
     public void doMovement(Account account, BigDecimal amount, String numberAccount) {
         try {
-<span class="nc" id="L21">            bankifyFacade.doMovement(account, amount, numberAccount);</span>
-<span class="nc" id="L22">        } catch (Exception e) {</span>
-<span class="nc" id="L23">            System.out.println(e.getMessage());</span>
-<span class="nc" id="L24">        }</span>
-<span class="nc" id="L25">    }</span>
+<span class="nc" id="L42">            bankifyFacade.doMovement(account, amount, numberAccount);</span>
+<span class="nc" id="L43">        } catch (Exception e) {</span>
+<span class="nc" id="L44">            System.out.println(e.getMessage());</span>
+<span class="nc" id="L45">        }</span>
+<span class="nc" id="L46">    }</span>
 
+    /**
+     * Consults the details of an account by its number.
+     * @param numberAccount account number to consult
+     * @return string with the account details
+     */
     public String consultAccount(String numberAccount) {
-<span class="fc" id="L28">        return bankifyFacade.consultAccount(numberAccount);</span>
+<span class="fc" id="L54">        return bankifyFacade.consultAccount(numberAccount);</span>
     }
 
-    // GET
+    /**
+     * Gets the customer's name.
+     * @return customer's name
+     */
     public String getName() {
-<span class="fc" id="L33">        return name;</span>
-
+<span class="fc" id="L62">        return name;</span>
     }
 
+    /**
+     * Gets the facade used by the customer.
+     * @return instance
+     */
     public BankifyFacade getBankifyFacade() {
-<span class="fc" id="L38">        return bankifyFacade;</span>
+<span class="fc" id="L70">        return bankifyFacade;</span>
     }
 
-    // SET
+    /**
+     * Sets the customer's name.
+     * @param name new customer name
+     */
     public void setName(String name) {
-<span class="nc" id="L43">        this.name = name;</span>
-<span class="nc" id="L44">    }</span>
+<span class="nc" id="L78">        this.name = name;</span>
+<span class="nc" id="L79">    }</span>
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

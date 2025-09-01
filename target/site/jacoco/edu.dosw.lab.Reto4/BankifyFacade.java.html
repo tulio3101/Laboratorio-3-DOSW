@@ -3,41 +3,69 @@
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
+/**
+ * Facade class that provides simplified access to the banking system operations.
+ * @author  Tulio Riaño , Juan Puentes , Julian Lopez
+ * @version 1.0
+ */
 public class BankifyFacade {
     private ManagementAccount managementAccount;
     private ArrayList&lt;Account&gt; accounts;
+    /**
+     * Default constructor.
+     */
+<span class="fc" id="L17">    public BankifyFacade() {</span>
+<span class="fc" id="L18">        accounts = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L19">        managementAccount = new ManagementAccount();</span>
+<span class="fc" id="L20">    }</span>
 
-<span class="fc" id="L10">    public BankifyFacade() {</span>
-<span class="fc" id="L11">        accounts = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L12">        managementAccount = new ManagementAccount();</span>
-<span class="fc" id="L13">    }</span>
-
+    /**
+     * Creates a new account with the given account name.
+     * @param name account holder's name
+     * @return the newly created account
+     */
     public Account createAccount(String name) {
-<span class="fc" id="L16">        Account newAccount = managementAccount.createAccount(name);</span>
-<span class="fc" id="L17">        accounts.add(newAccount);</span>
-<span class="fc" id="L18">        return newAccount;</span>
+<span class="fc" id="L28">        Account newAccount = managementAccount.createAccount(name);</span>
+<span class="fc" id="L29">        accounts.add(newAccount);</span>
+<span class="fc" id="L30">        return newAccount;</span>
     }
 
+    /**
+     * Consults account information by its account number.
+     * @param numberAccount the account number to search for
+     * @return a string with the account details (name, number, balance)
+     */
     public String consultAccount(String numberAccount) {
-<span class="fc" id="L22">        Account result = accounts.stream()</span>
-<span class="fc" id="L23">                .filter(a -&gt; a.getNumberAccount().equals(numberAccount))</span>
-<span class="fc" id="L24">                .findFirst()</span>
-<span class="fc" id="L25">                .orElse(null);</span>
-<span class="fc" id="L26">        return result.consultAccount(numberAccount);</span>
+<span class="fc" id="L39">        Account result = accounts.stream()</span>
+<span class="fc" id="L40">                .filter(a -&gt; a.getNumberAccount().equals(numberAccount))</span>
+<span class="fc" id="L41">                .findFirst()</span>
+<span class="fc" id="L42">                .orElse(null);</span>
+<span class="pc bpc" id="L43" title="1 of 2 branches missed.">        return result != null ? result.consultAccount(numberAccount) : null;</span>
     }
 
+    /**
+     * Returns the list of all accounts registered in the system.
+     * @return list of accounts
+     */
     public ArrayList&lt;Account&gt; getAccounts() {
-<span class="fc" id="L30">        return accounts;</span>
+<span class="fc" id="L51">        return accounts;</span>
     }
 
+    /**
+     * Executes a movement from the given account to another account
+     * identified by its account number.
+     * @param account       source account 
+     * @param amount        amount of money to transfer
+     * @param numberAccount destination account number
+     * @throws Exception  possibles errors
+     */
     public void doMovement(Account account, BigDecimal amount, String numberAccount) throws Exception {
-<span class="nc bnc" id="L34" title="All 2 branches missed.">        for (Account a : accounts) {</span>
-<span class="nc bnc" id="L35" title="All 2 branches missed.">            if (a.getNumberAccount() == numberAccount) {</span>
-<span class="nc" id="L36">                Account newAccount = account;</span>
-<span class="nc" id="L37">                account.doMovement(amount, newAccount);</span>
+<span class="nc bnc" id="L63" title="All 2 branches missed.">        for (Account a : accounts) {</span>
+<span class="nc bnc" id="L64" title="All 2 branches missed.">            if (a.getNumberAccount().equals(numberAccount)) {</span>
+<span class="nc" id="L65">                account.doMovement(amount, a);</span>
             }
-<span class="nc" id="L39">        }</span>
-<span class="nc" id="L40">    }</span>
+<span class="nc" id="L67">        }</span>
+<span class="nc" id="L68">    }</span>
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

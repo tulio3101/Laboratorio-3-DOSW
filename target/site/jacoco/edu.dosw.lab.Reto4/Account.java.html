@@ -3,48 +3,93 @@
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
+/**
+ * Represents a bank account with an account number, an account name,
+ * a balance, and a list of movements (transactions).
+ * 
+ * @author  Tulio Riaño - Juan Puentes - Julian Lopez
+ * @version 1.0
+ */
 public class Account {
     private String name;
     private BigDecimal balance;
     private String numberAccount;
-
     private ArrayList&lt;Movement&gt; movements;
 
-<span class="nc" id="L13">    public Account() {</span>
-<span class="nc" id="L14">    }</span>
+    /**
+     * Default constructor.
+     */
+<span class="nc" id="L22">    public Account() {</span>
 
-<span class="fc" id="L16">    public Account(String name, String numberAccount) {</span>
-<span class="fc" id="L17">        this.name = name;</span>
-<span class="fc" id="L18">        this.numberAccount = numberAccount;</span>
-<span class="fc" id="L19">        movements = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L20">        balance = new BigDecimal(0);</span>
-<span class="fc" id="L21">    }</span>
+<span class="nc" id="L24">    }</span>
 
+    /**
+     * Creates a new account with the given account name and account number.
+     * The initial balance is set to 0.
+     * @param name          account name
+     * @param numberAccount account number
+     */
+<span class="fc" id="L32">    public Account(String name, String numberAccount) {</span>
+<span class="fc" id="L33">        this.name = name;</span>
+<span class="fc" id="L34">        this.numberAccount = numberAccount;</span>
+<span class="fc" id="L35">        movements = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L36">        balance = new BigDecimal(0);</span>
+<span class="fc" id="L37">    }</span>
+
+    /**
+     * Gets the account name.
+     * @return account name
+     */
     public String getName() {
-<span class="fc" id="L24">        return name;</span>
+<span class="fc" id="L44">        return name;</span>
     }
 
+    /**
+     * Gets the account number.
+     * @return account number
+     */
     public String getNumberAccount() {
-<span class="fc" id="L28">        return numberAccount;</span>
+<span class="fc" id="L52">        return numberAccount;</span>
     }
 
+    /**
+     * Gets the current account balance.
+     * @return current balance
+     */
     public BigDecimal getBalance() {
-<span class="fc" id="L32">        return balance;</span>
+<span class="fc" id="L60">        return balance;</span>
     }
 
+    /**
+     * Returns a string with the account details: name, account number, and balance.
+     *
+     * @param numberAccount account number to be consulted 
+     * @return string containing account name, account number, and balance
+     */
     public String consultAccount(String numberAccount) {
-<span class="fc" id="L36">        return this.getName() + &quot; &quot; +  this.getNumberAccount() + &quot; &quot; + this.getBalance().toString();</span>
+<span class="fc" id="L70">        return this.getName() + &quot; &quot; + this.getNumberAccount() + &quot; &quot; + this.getBalance().toString();</span>
     }
 
+    /**
+     * Performs a movement from this account to a destination account.
+     *
+     * @param amount      the amount of money to transfer
+     * @param destination the destination account that will receive the money
+     * @throws Exception  possibles errors
+     */
     public void doMovement(BigDecimal amount, Account destination) throws Exception {
-<span class="fc" id="L40">        Movement movement = new Movement();</span>
-<span class="fc" id="L41">        movements.add(movement);</span>
-<span class="fc" id="L42">        movement.doMovement(this, amount, destination);</span>
-<span class="fc" id="L43">    }</span>
+<span class="fc" id="L81">        Movement movement = new Movement();</span>
+<span class="fc" id="L82">        movements.add(movement);</span>
+<span class="fc" id="L83">        movement.doMovement(this, amount, destination);</span>
+<span class="fc" id="L84">    }</span>
 
+    /**
+     * Updates the account balance.
+     * @param balance new balance to be set
+     */
     public void setBalance(BigDecimal balance) {
-<span class="fc" id="L46">        this.balance = balance;</span>
-<span class="fc" id="L47">    }</span>
+<span class="fc" id="L91">        this.balance = balance;</span>
+<span class="fc" id="L92">    }</span>
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
