@@ -77,7 +77,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ### Diagrama de Clases UML
 
-![alt text](docs/imagenes/Reto2/UML.png)
+![alt text](docs/imagenes/Reto2/UMLReto2.png)
 
 --
 
@@ -101,19 +101,20 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 - Se siguio los principios S - O, para un buen desarrollo de software, esto se puede evidenciar en las clases previamente creadas, para el caso de O en planning poker recibe de acuerdo a una cantidad de tareas su descripcion para despues ser debatida.
 
+## Reto 5
 
-## Reto 5 
 ### Captura Inicial
 
 ![alt text](docs/imagenes/Reto5/image.png)
+
 - Añadiendo Mas Casos de prueba,corrigiendo el constructor de customer y añadiendo parametro nuevo a los objetos de Customer
 
-![alt text](docs/imagenes/Reto5/image-3.png)
----
-![alt text](docs/imagenes/Reto5/image-4.png)
----
+## ![alt text](docs/imagenes/Reto5/image-3.png)
+
+## ![alt text](docs/imagenes/Reto5/image-4.png)
+
 ### Captura Final Mas de 85% De Cobertura
+
 - Se agrego una prueba para añadir un movimiento directamente desde la clase "customer" y es importante porque verifica la calidad de las pruebas.
 
-![alt text](docs/imagenes/Reto5/image-2.png)
----
+## ![alt text](docs/imagenes/Reto5/image-2.png)
