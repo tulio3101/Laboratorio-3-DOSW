@@ -120,5 +120,17 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 ## ![alt text](docs/imagenes/Reto5/image-2.png)
 
 
-### Reflexion Julian Camilo Lopez Barrero
+
+
+
+
+
+
+
+
+
+
+
+
+### Reflexion: Julian Camilo Lopez Barrero
 - Considero que es importante realizar pruebas a un software diseñado porque siguiendo lo principios de desarrollo dirigido por pruebas podemos garantizar un código más robusto, de alta calidad, fácil de mantener y asi podemos garantizarle al cliente calidad en el producto que este un un principio pidió.
