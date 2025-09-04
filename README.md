@@ -80,7 +80,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ---
 
-### Reto 3 ✅
+## Reto 3 ✅
 
 ![alt text](docs/imagenes/Reto3/Reto3Imagen1.png)
 
@@ -100,7 +100,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 - Se siguio los principios S - O, para un buen desarrollo de software, esto se puede evidenciar en las clases previamente creadas, para el caso de O en planning poker recibe de acuerdo a una cantidad de tareas su descripcion para despues ser debatida.
 
-### Reto 4 ✅
+## Reto 4 ✅
 
 **Evidencia Implementacion**
 
