@@ -42,9 +42,9 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ---
 
-### Reto 1
+### Reto 1 ✅
 
-## Identificando Requerimientos
+## Identificando Requerimientos 🥸
 
 - Reglas de negocio: Asegurar la calidad de software, mantanibilidad aplicando metodologias agiles con cobertura de código y análisis estático.
 
@@ -59,7 +59,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ---
 
-## Reto 2 Culminado:
+## Reto 2 ✅:
 
 ![alt text](docs/imagenes/Reto2/image-2.png)
 
@@ -81,7 +81,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 --
 
-### Reto 3 Culminado:
+### Reto 3 ✅:
 
 ![alt text](docs/imagenes/Reto3/Reto3Imagen1.png)
 
@@ -101,9 +101,9 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 - Se siguio los principios S - O, para un buen desarrollo de software, esto se puede evidenciar en las clases previamente creadas, para el caso de O en planning poker recibe de acuerdo a una cantidad de tareas su descripcion para despues ser debatida.
 
-## Reto 5
+## Reto 5 ✅
 
-### Captura Inicial
+### 🖼️ Captura Inicial
 
 ![alt text](docs/imagenes/Reto5/image.png)
 
@@ -113,7 +113,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ## ![alt text](docs/imagenes/Reto5/image-4.png)
 
-### Captura Final Mas de 85% De Cobertura
+### 🖼️ Captura Final Mas de 85% De Cobertura
 
 - Se agrego una prueba para añadir un movimiento directamente desde la clase "customer" y es importante porque verifica la calidad de las pruebas.
 
@@ -122,15 +122,15 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
  Julian Camilo Lopez Barrero
 - Considero que es importante realizar pruebas a un software diseñado porque siguiendo lo principios de desarrollo dirigido por pruebas podemos garantizar un código más robusto, de alta calidad, fácil de mantener y asi podemos garantizarle al cliente calidad en el producto que este un un principio pidió.
 
-### Reto 6
+### Reto 6 ✅
 
-### Captura Final Sonar Quebe
+### 🖼️ Captura Final Sonar Quebe 
 
 ![alt text](docs/imagenes/Reto6/sonarQubeImage.png)
 
-**Reflexion**
+## Reflexion ✅
 
-## Integrantes
+### Integrantes 🫂
 
 - Tulio Riaño Sanchez: Las pruebas en un software diseñado nos permite conocer la cobertura de codigo, la robustez de este verificando todo tipo de casos que se nos presenten y garantizar la calidad y fiabilidad de un producto o serivicio.
 - Julian Camilo Lopez Barrero: considero que es importante realizar pruebas a un software diseñado porque siguiendo lo principios de desarrollo dirigido por pruebas podemos garantizar un código más robusto, de alta calidad, fácil de mantener y asi podemos garantizarle al cliente calidad en el producto que este un un principio pidió.
