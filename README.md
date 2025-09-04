@@ -134,3 +134,4 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 - Tulio Riaño Sanchez: Las pruebas en un software diseñado nos permite conocer la cobertura de codigo, la robustez de este verificando todo tipo de casos que se nos presenten y garantizar la calidad y fiabilidad de un producto o serivicio.
 - Julian Camilo Lopez Barrero: considero que es importante realizar pruebas a un software diseñado porque siguiendo lo principios de desarrollo dirigido por pruebas podemos garantizar un código más robusto, de alta calidad, fácil de mantener y asi podemos garantizarle al cliente calidad en el producto que este un un principio pidió.
+- Juan Sebastian Puentes: Considero importante realizar pruebas a un software diseñado ya que nos permite visualizar si los desarrolladores siguen buenas practicas haciendo que el codigo sea mas limpio y asi mismo escalable. Por otro lado, es importante ya que nos ayuda a comprobar el buen funcionamiento del sistema.
