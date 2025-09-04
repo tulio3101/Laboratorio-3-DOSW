@@ -58,8 +58,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
   - Creacion de los clientes, verificar las cuentas de los clientes revisando si este cumple con los estandares delos digitos y si estan asociados a el banco, permitir la consulta del usuario junto con su saldo.
 
 ---
-
-## Reto 2 ✅:
+## Reto 2 ✅
 
 ![alt text](docs/imagenes/Reto2/image-2.png)
 
@@ -81,7 +80,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ---
 
-### Reto 3 ✅:
+### Reto 3 ✅
 
 ![alt text](docs/imagenes/Reto3/Reto3Imagen1.png)
 
@@ -100,6 +99,33 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 - Se crearon dos clases para validar que los votos estuvieran dentro del rango establecido (fibonacci del 1 al 13) y una para validar los votos de los integrantes.
 
 - Se siguio los principios S - O, para un buen desarrollo de software, esto se puede evidenciar en las clases previamente creadas, para el caso de O en planning poker recibe de acuerdo a una cantidad de tareas su descripcion para despues ser debatida.
+
+### Reto 4 ✅
+
+**Evidencia Implementacion**
+
+![alt text](docs/imagenes/Reto4/account.png)
+
+![alt text](docs/imagenes/Reto4/bankify.png)
+
+![alt text](docs/imagenes/Reto4/customer.png)
+
+![alt text](docs/imagenes/Reto4/management.png)
+
+![alt text](docs/imagenes/Reto4/movement.png)
+
+![alt text](docs/imagenes/Reto4/validate.png)
+
+**Codigo Fuente Pruebas**
+
+![alt text](docs/imagenes/Reto4/pruebas.png)
+
+**Ejecucion Exitosa**
+![alt text](docs/imagenes/Reto4/ejecucion.png)
+
+**Explicacion**
+
+- Para la realizacion del sistema bancario, implementamos el patron Facade donde esta sera el intermediaro entre el cliente y toda la logica del sistema.  Por otro lado, del principio SOLID se implemento Single Responsability ya que constantemente se delegan los metodos para no acoplar el funcionamiento.
 
 ## Reto 5 ✅
 
