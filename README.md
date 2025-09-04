@@ -124,3 +124,9 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 ### Captura Final Sonar Quebe
 
 ![alt text](docs/imagenes/Reto6/sonarQubeImage.png)
+
+**Reflexion**
+
+## Integrantes
+
+- Tulio Riano Sanchez: Las pruebas en un software diseñado nos permite conocer la cobertura de codigo, la robustez de este verificando todo tipo de casos que se nos presenten y garantizar la calidad y fiabilidad de un producto o serivicio.
