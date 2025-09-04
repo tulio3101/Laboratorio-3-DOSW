@@ -42,9 +42,9 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ---
 
-### Reto 1
+### Reto 1 ✅
 
-## Identificando Requerimientos
+## Identificando Requerimientos 🥸
 
 - Reglas de negocio: Asegurar la calidad de software, mantanibilidad aplicando metodologias agiles con cobertura de código y análisis estático.
 
@@ -59,7 +59,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ---
 
-## Reto 2 Culminado:
+## Reto 2 ✅
 
 ![alt text](docs/imagenes/Reto2/image-2.png)
 
@@ -77,11 +77,11 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ### Diagrama de Clases UML
 
-![alt text](docs/imagenes/Reto2/UML.png)
+![alt text](docs/imagenes/Reto2/UMLReto2.png)
 
---
+---
 
-### Reto 3 Culminado:
+### Reto 3 ✅
 
 ![alt text](docs/imagenes/Reto3/Reto3Imagen1.png)
 
@@ -95,13 +95,13 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ![alt text](docs/imagenes/Reto3/image-2.png)
 
-**Explicacion**
+## 📖 Explicacion 
 
 - Se crearon dos clases para validar que los votos estuvieran dentro del rango establecido (fibonacci del 1 al 13) y una para validar los votos de los integrantes.
 
 - Se siguio los principios S - O, para un buen desarrollo de software, esto se puede evidenciar en las clases previamente creadas, para el caso de O en planning poker recibe de acuerdo a una cantidad de tareas su descripcion para despues ser debatida.
 
-### Reto 4 Culminado:
+### Reto 4 ✅
 
 **Evidencia Implementacion**
 
@@ -127,3 +127,35 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 **Explicacion**
 
 - Para la realizacion del sistema bancario, implementamos el patron Facade donde esta sera el intermediaro entre el cliente y toda la logica del sistema.  Por otro lado, del principio SOLID se implemento Single Responsability ya que constantemente se delegan los metodos para no acoplar el funcionamiento.
+
+## Reto 5 ✅
+
+### 🖼️ Captura Inicial
+
+![alt text](docs/imagenes/Reto5/image.png)
+
+- Añadiendo Mas Casos de prueba,corrigiendo el constructor de customer y añadiendo parametro nuevo a los objetos de Customer
+
+## ![alt text](docs/imagenes/Reto5/image-3.png)
+
+## ![alt text](docs/imagenes/Reto5/image-4.png)
+
+### 🖼️ Captura Final Mas de 85% De Cobertura
+
+- Se agrego una prueba para añadir un movimiento directamente desde la clase "customer" y es importante porque verifica la calidad de las pruebas.
+
+## ![alt text](docs/imagenes/Reto5/image-2.png)
+
+### Reto 6 ✅
+
+### 🖼️ Captura Final Sonar Quebe 
+
+![alt text](docs/imagenes/Reto6/sonarQubeImage.png)
+
+## Reflexion ✅
+
+### Integrantes 🫂
+
+- Tulio Riaño Sanchez: Las pruebas en un software diseñado nos permite conocer la cobertura de codigo, la robustez de este verificando todo tipo de casos que se nos presenten y garantizar la calidad y fiabilidad de un producto o serivicio.
+- Julian Camilo Lopez Barrero: considero que es importante realizar pruebas a un software diseñado porque siguiendo lo principios de desarrollo dirigido por pruebas podemos garantizar un código más robusto, de alta calidad, fácil de mantener y asi podemos garantizarle al cliente calidad en el producto que este un un principio pidió.
+- Juan Sebastian Puentes: Considero importante realizar pruebas a un software diseñado ya que nos permite visualizar si los desarrolladores siguen buenas practicas haciendo que el codigo sea mas limpio y asi mismo escalable. Por otro lado, es importante ya que nos ayuda a comprobar el buen funcionamiento del sistema.
