@@ -79,7 +79,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ![alt text](docs/imagenes/Reto2/UMLReto2.png)
 
---
+---
 
 ### Reto 3 ✅:
 
@@ -95,7 +95,7 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 
 ![alt text](docs/imagenes/Reto3/image-2.png)
 
-**Explicacion**
+## 📖 Explicacion 
 
 - Se crearon dos clases para validar que los votos estuvieran dentro del rango establecido (fibonacci del 1 al 13) y una para validar los votos de los integrantes.
 
@@ -118,9 +118,6 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 - Se agrego una prueba para añadir un movimiento directamente desde la clase "customer" y es importante porque verifica la calidad de las pruebas.
 
 ## ![alt text](docs/imagenes/Reto5/image-2.png)
-
- Julian Camilo Lopez Barrero
-- Considero que es importante realizar pruebas a un software diseñado porque siguiendo lo principios de desarrollo dirigido por pruebas podemos garantizar un código más robusto, de alta calidad, fácil de mantener y asi podemos garantizarle al cliente calidad en el producto que este un un principio pidió.
 
 ### Reto 6 ✅
 
