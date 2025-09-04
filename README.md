@@ -118,3 +118,9 @@ Incluye la organizacion de los directorios con archivos provisionales para que a
 - Se agrego una prueba para añadir un movimiento directamente desde la clase "customer" y es importante porque verifica la calidad de las pruebas.
 
 ## ![alt text](docs/imagenes/Reto5/image-2.png)
+
+### Reto 6
+
+### Captura Final Sonar Quebe
+
+![alt text](docs/imagenes/Reto6/sonarQubeImage.png)
